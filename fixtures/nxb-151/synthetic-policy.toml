@@ -1,0 +1,28 @@
+schema_version = 1
+
+[program]
+name = "NXB Synthetic Acceptance"
+platform = "local_fixture"
+policy_url = "https://example.org/security-policy"
+
+[scope]
+include_hosts = ["example.org"]
+exclude_hosts = []
+allowed_schemes = ["https"]
+allowed_methods = ["GET", "HEAD", "OPTIONS"]
+allow_subdomains = false
+
+[automation]
+active_testing = false
+credential_bruteforce = false
+destructive_testing = false
+oob_callbacks = false
+max_requests_per_second = 1.0
+max_concurrency = 1
+max_total_requests = 16
+
+[authorization]
+confirmed = true
+researcher = "nxb-synthetic-acceptance"
+policy_snapshot_sha256 = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+expires_at = "2099-01-01T00:00:00Z"

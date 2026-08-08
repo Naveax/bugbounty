@@ -1,0 +1,11 @@
+NXB SYNTHETIC AUTHORIZATION FIXTURE
+
+This document exists only for offline product acceptance.
+It is not authorization to test any real system.
+
+program=NXB Synthetic Acceptance
+platform=local_fixture
+researcher=nxb-synthetic-acceptance
+origin=https://example.org
+methods=GET,HEAD,OPTIONS
+expires_at=2099-01-01T00:00:00Z

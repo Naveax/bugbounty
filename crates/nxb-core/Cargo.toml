@@ -4,10 +4,11 @@ version.workspace = true
 edition.workspace = true
 authors.workspace = true
 publish = false
+autobins = false
 
 [[bin]]
 name = "nxb"
-path = "src/main.rs"
+path = "src/nxb.rs"
 
 [features]
 default = []
